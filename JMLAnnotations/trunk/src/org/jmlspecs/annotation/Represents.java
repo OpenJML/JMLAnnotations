@@ -1,4 +1,4 @@
-package org.jmlspecs.annotations;
+package org.jmlspecs.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
