@@ -38,4 +38,5 @@ public @interface SpecCase {
   String duration()            	   default "#not_specified";
   String durationRedundantly() 	   default "#not_specified";
   
+  String modelProgram()			   default "#not_specified";
 }
