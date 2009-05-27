@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Model {
-
-  String value();
-
+	// The default is temporary. It allows us to use @Model
+	// as a simple modifier in the context of JML4.
+	String value() default "";
 }

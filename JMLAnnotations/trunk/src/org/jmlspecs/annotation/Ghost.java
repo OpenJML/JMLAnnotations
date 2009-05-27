@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Ghost {
-	
-	String value();
-
+	// The default is temporary. It allows us to use @Ghost
+	// as a simple modifier in the context of JML4.
+	String value() default "";
 }

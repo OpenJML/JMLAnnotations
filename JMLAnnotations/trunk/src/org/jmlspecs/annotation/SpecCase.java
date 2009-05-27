@@ -7,7 +7,8 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface SpecCase {
-
+  /** tag format: (('+'|'-')? JavaId) (',' ('+'|'-') JavaId)*)? */
+  String tag()				       default "";
   String header()			       default "";
   String forall()				   default "#not_specified";
   String old()					   default "#not_specified";
@@ -38,4 +39,5 @@ public @interface SpecCase {
   String duration()            	   default "#not_specified";
   String durationRedundantly() 	   default "#not_specified";
   
+  String modelProgram()			   default "#not_specified";
 }

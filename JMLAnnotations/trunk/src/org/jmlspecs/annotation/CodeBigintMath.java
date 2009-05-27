@@ -6,8 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Also {
-  /** tag format: (('+'|'-')? JavaId) (',' ('+'|'-') JavaId)*)? */
-  String tag() default "";
-  SpecCase[] value() default {};
+public @interface CodeBigintMath {
+
 }
