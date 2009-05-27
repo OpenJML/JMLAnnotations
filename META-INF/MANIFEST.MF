@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JmlSpecsAnnotation
+Bundle-SymbolicName: org.jmlspecs.annotation
+Bundle-Version: 0.1.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.jmlspecs.annotation
