@@ -8,7 +8,8 @@ import java.lang.annotation.RetentionPolicy;
 @Documented
 public @interface Initially {
 
-  String header()	default "";
-  String value();
+	String header() default "";
+
+	String value() default "";
 
 }
