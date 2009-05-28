@@ -10,6 +10,6 @@ public @interface Invariant {
 
   String header()			default "";
   boolean redundantly()     default false;
-  String value();
+  String value()			default "";
 
 }
