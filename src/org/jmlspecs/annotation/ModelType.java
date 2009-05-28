@@ -7,11 +7,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target( { ElementType.FIELD, ElementType.METHOD })
+@Target(ElementType.TYPE)
 @Documented
-public @interface In {
-
-	boolean redundantly() default false;
-	String value();
-
+public @interface ModelType {
+	String value() default "";
 }
