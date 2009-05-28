@@ -8,8 +8,10 @@ import java.lang.annotation.RetentionPolicy;
 @Documented
 public @interface Constraint {
 
-  String header()			default "";
-  boolean redundantly()   	default false;
-  String value();
+	String header() default "";
+
+	boolean redundantly() default false;
+
+	String value() default "";
 
 }
