@@ -10,6 +10,6 @@ public @interface Represents {
 
   boolean redundantly()	  default false;
   String header()         default "";
-  String value();
+  String value() default "";
 
 }
