@@ -6,8 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface ModelDefinitions {
-  Model[] value() default {};
-  ModelField[] fields() default {};
-  ModelMethod[] methods() default {};
+public @interface Spec {
+  /** tag format: (('+'|'-')? JavaId) (',' ('+'|'-') JavaId)*)? */
+  String tag() default "";
+  SpecCase[] value() default {};
 }
