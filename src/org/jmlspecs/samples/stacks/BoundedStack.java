@@ -40,7 +40,7 @@ import org.jmlspecs.annotation.*;
                    value="(#forall int i; 0 <= i && i < nextFree;"
                          +"theItems[i] != null);")
 })
-@Model("protected pure model JMLObjectSequence theStackRep() {"
+@ModelMethod("protected pure model JMLObjectSequence theStackRep() {"
        + "   JMLObjectSequence ret = new JMLObjectSequence();"
        + "   int i;"
        + "   for (i = 0; i < nextFree; i++) {"
