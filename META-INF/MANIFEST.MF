@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: JmlSpecsAnnotation
 Bundle-SymbolicName: org.jmlspecs.annotation;singleton:=true
-Bundle-Version: 0.1.20
+Bundle-Version: 0.1.21
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: org.jmlspecs.annotation
 Bundle-Vendor: David R. Cok
