@@ -5,6 +5,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
 @Documented
+@JmlFeatureGroup(groupName="flowspecs")
 @Target({ ElementType.PARAMETER, ElementType.LOCAL_VARIABLE, ElementType.FIELD, ElementType.METHOD })
 public @interface Level {
     public static final String DEFAULT = "__JML_LEVEL_INTERNAL_DEFAULT";
