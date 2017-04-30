@@ -1,4 +1,4 @@
-package org.jmlspecs.openjml.strongarm;
+package org.jmlspecs.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
