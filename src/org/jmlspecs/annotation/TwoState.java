@@ -6,4 +6,4 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface NoState {}
+public @interface TwoState {}
